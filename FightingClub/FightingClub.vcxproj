@@ -129,10 +129,17 @@
   <ItemGroup>
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="scene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ability.hpp" />
     <ClInclude Include="character.hpp" />
+    <ClInclude Include="customplayer.hpp" />
     <ClInclude Include="game.hpp" />
+    <ClInclude Include="pyromancer.hpp" />
+    <ClInclude Include="scene.hpp" />
+    <ClInclude Include="constants.hpp" />
+    <ClInclude Include="utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
